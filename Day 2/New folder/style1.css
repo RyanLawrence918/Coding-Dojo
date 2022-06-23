@@ -1,0 +1,61 @@
+.container{
+    width: 900px;
+    background-color: silver;
+    padding: 10px;
+    margin: 10px;
+    height: 500px;
+}
+
+.top-nav {
+    height: 100px;
+    background-color: green;
+    padding: 10px;
+    margin:10px;
+    box-sizing: border-box;
+}
+
+.side-nav {
+    height: 250px;
+    width: 150px;
+    background-color: blue;
+    box-sizing: border-box;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.main {
+    height: 370px;
+    width: 715px;
+    vertical-align: top;
+    padding: auto;
+    margin: 1px;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: red;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.sub-content {
+    justify-content: space-evenly;
+    height: 200px;
+    width: 210px;
+    padding-left: 10px;
+    margin: 6px;
+    padding: 10px;
+    vertical-align: top;
+    background-color: yellow;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+#advertisement {
+    height: 90px;
+    width: 660px;
+    background-color: purple;
+    margin: 10px 10px 40px 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+

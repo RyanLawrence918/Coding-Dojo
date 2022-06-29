@@ -1,0 +1,29 @@
+.row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.col{
+    flex-direction: column;
+    background-color: rgb(211, 255, 14);
+    flex: 1;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.col-2{
+    flex-direction: column;
+    background-color:  rgb(211, 255, 14);
+    display: inline-flex;
+    justify-content: center;
+    
+    bor
+    flex: 1;
+
+}
+
+.col-3{
+    flex-direction: column;
+    
+}

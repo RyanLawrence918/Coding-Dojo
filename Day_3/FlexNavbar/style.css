@@ -1,0 +1,52 @@
+/*
+We can select based on Class
+.title {
+    color:chartreuse;
+    font-size: 100px;
+    font-family: monospace;
+}
+*/
+
+/*
+We cam select based on ID
+
+#this{
+    color:bisque;
+    font-size: 75px;
+    text-align: center;
+}
+*/
+
+.container{
+    height: px;
+    background-color: darkgrey;
+}
+
+.nav-title{
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+
+.nav-links{
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font: white;
+}
+
+.active{
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font: white;
+}
+
+.btn{
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font: white;
+    background-color: rgb(87, 195, 214); 
+}

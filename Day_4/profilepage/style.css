@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar{
+    height: 70px;
+    background-color: black;
+    display: flex;
+}
+
+.navleft{
+    height: 70px; 
+    width: 2000px;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-left: 65px;
+    margin-right: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    left: 30px;
+}
+
+.navright{
+    height: 70px;
+    width: 350px;
+    border: none;
+    color: white;
+    text-align: center;
+    /* display: flex; */
+    position: relative;
+
+}
+
+.navrightbutton{
+    position: 70px;
+    width: 350px;
+    background-color: rgb(23,162,184);
+    /* display: flex; */
+    /* text-align: center; */
+    color: white;
+    justify-items: center;
+    align-items:baseline;
+    position: relative;
+    display: inline;
+    margin: 20px
+}
+
+.maincontent{
+    
+}
+
+.usercard{
+    height: 210px;
+    width: 255px;
+    background-color: rgb(255,255,255);
+    position: absolute;
+    top: 110px;
+    left: 115px;
+    border-bottom: 2px solid rgb(204,204,204);
+    border-left: 2px solid rgb(204,204,204);
+    border-right: 2px solid rgb(204,204,204);
+}
+
+.usercardbanner{
+    height: 70px;
+    width: 235;
+    background-color:rgb(23,162,184);
+    
+}
+
+.usercardcontent{
+    height: 60px;
+    width: 235;
+    background-color: rgb(255,255,255);
+    
+    
+    
+}
+
+.usercardcontent h2 {
+    font-family:cursive;
+    position: relative;
+    top: 20px;
+    left: 15px;
+    
+}
+
+.usercardcontent p {
+    font-family: cursive;
+    position: relative;
+    font-size: small;
+    top: 20px;
+    left: 20px
+    
+}
+
+#profpic {
+    height: 70px;
+    position: absolute;
+    top: 30px;
+    left: 22px;
+    
+}
+
+.location{
+    height: 15px;
+    position: absolute;
+    top: 125px;
+    left: 20px;
+    
+}
+
+#locp{
+    position: relative;
+    left: 40px;
+    
+}
+
+.gear{
+    height: 15px;
+    position: relative;
+    top: 25px;
+    left: 15px;
+    
+}
+
+.usercardcontent a {
+    font-family: cursive;
+    font-size: small;
+    position: relative;
+    top: 20px;
+    left: 25px;
+    
+}
+
+.requestbox{
+    height: 100px;
+    width: 180px;
+    background-color: rgb(255,255,255);
+    position: relative;
+    top: 40px;
+    left: 390px;
+    font-family: arial;
+}
+
+.reqboxban{
+    height: 30px;
+    width: 170;
+    background-color: rgb(51,51,51);
+    color:white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.reqcardcontent{
+    height: 70px;
+    width: 235;
+    background-color: rgb(255,255,255);
+    border: 2px solid rgb(204,204,204);
+    position: relative;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: inline;
+
+    
+}
+
+.todd{
+    height: 30px;
+    display: flex;
+    justify-content: left;
+}
+
+#ToddE{
+    position: relative;
+    justify-content: space-between;
+}
+
+.phil{
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.accept{
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.close{
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.educationbox{
+    height: 90px;
+    width: 255px;
+    background-color: rgb(255,255,255);
+    position: absolute;
+    top: 360px;
+    left: 115px;
+    font-family: cursive;
+    border-left: 2px solid rgb(204,204,204);
+    border-right: 2px solid rgb(204,204,204);
+    border-bottom: 2px solid rgb(204,204,204);
+}
+
+.eduboxban{
+    height: 30px;
+    width: 235;
+    background-color: rgb(51,51,51);
+    color: white;
+    display: flex;
+    justify-items: left;
+    align-items: center;
+}
+
+#edu{
+    position: absolute;
+    left: 20px;
+}
+
+#edu1{
+    position: relative;
+    left: 15px;
+}
+
+#edu2{
+    position: relative;
+    left: 15px;
+}
+
+#edu3{
+    position: relative;
+    left: 15px;
+}
+
+.connectionbox{
+    height: 185px;
+    width: 180px;
+    background-color: rgb(255,255,255);
+    position: relative;
+    top: 70px;
+    left: 390px;
+    display: table
+}
+
+.connectboxban{
+    height: 40px;
+    width: 180;
+    background-color: rgb(51,51,51);
+    color: white;
+    justify-content: space-between;
+    left: 10px;
+
+}
+
+.peeps{
+    position: relative;
+    height: 100px;
+}
+
+#folks{
+    position: absolute;
+    align-items: column;
+}
+
+.viewmore{
+    height: 185px;
+    width: 180px;
+    position: relative;
+    top: 50px;
+}

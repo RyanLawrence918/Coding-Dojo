@@ -1,0 +1,82 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* body{
+    padding: 0px 40px;
+    font-family: cursive;
+}
+
+.nav-bar{
+    /* outline: 3px solid black; */
+
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color:white;
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+
+.main{
+    margin: 0 auto;
+    height: 800px;
+    /* outline: 2px solid black; */
+    margin-top: 20px;
+    display: flex;
+    gap: 50px
+}
+
+.col-left{
+    outline: 3px solid black;
+    flex: 1;
+    height: 300px;
+    /* margin-right: 20px; */
+    /* height: 100px; */
+}
+
+#user{
+    justify-content: center;
+    
+}
+
+.col-right{
+    outline: 3px solid black;
+    flex: 3;
+    /* margin-left: 20px; */
+    /* height: 100px; */
+}
+
+.card{
+    outline: 3px solid black;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* justify-items: space-evenly; */
+    
+    
+}
+
+.cardtop{
+    /* outline: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yellow{
+    background-color: rgb(255,217,102);
+    box-shadow: 3px 3px black;
+    margin-right: 09px;
+
+}
+
+#neilcount, #nicolecount, #jimcount{
+    margin: right 10px;
+}

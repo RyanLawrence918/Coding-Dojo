@@ -1,5 +1,3 @@
-
-
 var isSunny = true;
 var temperature = 45; // let's assume degrees Fahrenheit
 var isRaining = false;
@@ -49,5 +47,3 @@ for(var i=0; i<numbers.length; i++){
    
 
 console.log("there are " + countPositives + " positive values");
-
-

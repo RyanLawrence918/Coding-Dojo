@@ -1,0 +1,132 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  /* Fixed width container class that will "auto-center" itself */
+
+
+.banner{
+    height: 70px;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+}
+
+.bancontent{
+    height: 70px; 
+    width: 1200px;
+    background-color: rgb(204,204,204);
+    color: black;
+    display: flex;
+    font-family: cursive;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    justify-content: space-between;
+    /* position: relative; */
+    left: 30px;
+    padding: 20px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#butt {
+    background-color:rgb(43,120,228);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#search {
+    width: 300px;
+    border: 2px solid black;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#main{
+    outline: 3px solid black;
+    height: 800px;
+    margin: 0px 400px;
+    
+}
+
+
+
+/* .maincontent{
+    width: 1200px;
+}
+
+.def{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(255,255,255);
+    vertical-align: top;
+    position: relative;
+    top: 80px;
+    right: 525px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px;
+    display: flex;
+}
+
+.ninjadef1{
+    height: 60px;
+    width: 120px;
+    background-color: rgb(255,255,255);
+    /* vertical-align: top; */
+}
+/* 
+.ninjadef1 h2 {
+    font-family:cursive;
+    position: flex;
+    top: 20px;
+    left: 15px;
+    
+}
+
+#noun{
+    position: relative;
+    left: 40px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+#like{
+    background-color: rgb(255,217,102);
+    
+}
+
+.dojodef{
+    height: 180px;
+    width: 200px;
+    position: relative;
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    top: 90px;
+    right: 500px;
+
+}
+
+#adddef{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(147,196,125);
+    font-family: cursive;
+} */ */

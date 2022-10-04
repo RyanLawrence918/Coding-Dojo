@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: red;
+}
+
+table tr td{
+    width: 50px;
+    height: 50px;
+}
+
+.color0{
+    background-color: burlywood;
+}
+
+.color1{
+    background-color: cadetblue;
+}
+

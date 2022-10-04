@@ -1,0 +1,2 @@
+module olympics_demo {
+}

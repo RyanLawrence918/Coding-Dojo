@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="nav">
+        <div class="navleft">
+            <img id="leaf" src="leaf.png" alt="leaf">
+            <h1>EasyBay</h1>
+        </div> 
+        <div class="navmid">
+            <p>Search for anything</p>
+            <img id="searchdark" src="search-dark.png" alt="search-dark">
+        </div>
+        <div class="navright">
+            <p>Sign In</p>
+            <img id="cart" onclick="alert('This page says Your cart is empty')" src="cart-dark.png" alt="cart">
+        </div>
+    </div>
+    
+    <div class="plantlist">
+        <h4>Aeonium</h4>
+        <h4>Andormischus</h4>
+        <h4>Agave</h4>
+        <h4>Aloe</h4>
+        <h4>Anacamperos</h4>
+        <h4>Aristaloe</h4>
+        <h4>More...</h4>
+    </div>
+
+    <div class="yoursource">
+        <p>Your Source for Serious Succulent Specialties</p>
+    </div>
+
+    <div class="main">
+
+        <div id="leftmain">
+            <div id="stack">
+                <div id="disco1">
+                    <h5>Discover Succulent varieties one pot or rack at a time!</h5>
+                </div>
+
+                <div id="disco2">
+                    <p>Discover <img src="arrow-light.png" alt="arrow-light"></p>
+                </div>
+            </div>
+            <div id="succs">
+                <img src="succulents-1.jpg" alt="sucks" onmouseover="this.src='succulents-2.jpg'" onmouseout="this.src='succulents-1.jpg'">
+            </div>
+        </div>
+
+        <div id="rightmain">
+            <div id="aloepic">
+                <img src="aloe-m.jpg" alt="lowlow">
+            </div>
+            
+
+            <div id="soothing">
+                Soothing Aloe <img src="arrow-light.png" alt='arrow'>
+            </div>
+        
+        </div>
+    </div>
+    <div id="products">
+        <div class="productpics">
+            <div class="prettyplants">
+                <img id="plantpic1" src="aeonium-s.jpg" alt='aeonium'>
+            </div>
+            <h3>Aeonium</h3>
+        </div>
+        <div class="productpics">
+            <div class="prettyplants"
+                ><img id="plantpic2" src="aloe-s.jpg" alt='aloe-s'>
+            </div>
+            <h3>Aloe</h3>
+        </div>
+        <div class="productpics">
+            <div class="prettyplants">
+                <img id="plantpic3" src="cactus-s.jpg" alt='cactus'>
+            </div>
+            <h3>Cactus</h3>
+        </div>
+        <div class="productpics">
+            <div id="prettyplants">
+                <img id="plantpic4" src="echeveria-s.jpg" alt='echeveria'>
+            </div>
+            <h3>Echeveria</h3>
+        </div>
+        <div class="productpics">
+            <div id="prettyplants1">
+                <img id="plantpic5" src="sedum-s.jpg" alt='sedum'>
+            </div>
+            <h3>Sedum</h3>
+        </div>
+        <div class="productpics">
+            <div id="prettyplants2">
+                <img id="plantpic6" src="sempervivum-s.jpg" alt="semper">
+            </div>
+            <h3>Sempvivum</h3>
+        </div>
+    </div>
+
+    <div id="cookies">
+        <img src="alert-dark.png" alt="alert">
+        <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our <a href="https://muppet.fandom.com/wiki/Cookie_Monster"> cookie policy</a></p>
+        <button onclick="hide()" id="iagree">I Accept</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

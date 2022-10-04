@@ -8,3 +8,21 @@ function addlike(id){
     element.innerText=likecount;
 }
 
+function changeimg(){
+    document.querySelector(".maincenterimage")
+    Image.src = "pixel-ninjas.png"
+
+    if(Image.src == "pixel-ninjs.png"){
+        Image.src = "stonepunk.png"
+    }
+    else{
+        Image.src = "pixel-ninjas.png"
+    }
+}
+
+var counter = 0
+function counter(id){
+    console.log("hello" + num)
+    num++
+    document.querySelector("counter").innerHTML = num
+}

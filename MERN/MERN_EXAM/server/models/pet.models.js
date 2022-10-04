@@ -33,7 +33,11 @@ const PetSchema = new mongoose.Schema({
     }
 }, {timestamps:true});
 
-
+PetSchema.path('name').validate(async ( name ) => {
+    const namevalid = await mongoose.models.Pet.countDocuments({ name })
+    return !namevalid
+}, "Name already exist")
+}, "Name already exist")
 
 //this line registers the table under the table name "Joke" using the instructions from the JokeSchema variable
 const Pet = mongoose.model("Pet", PetSchema)
